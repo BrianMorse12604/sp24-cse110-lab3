@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="icon" href="media/favicon.ico"/>
+        <title>First Meeting Minutes</title>
+    </head>
+    <body>
+        <header>
+            <h1>Deciding How to Write Meeting Minutes</h1>
+            <h2>Brainstorming</h2>
+            <h3>Date: 04/10/2024</h3>
+            <h4>Brian is sole attendee</h4>
+            <hr>
+        </header>
+        <nav>
+            <p>Links to section of notes: <br>
+            <a href="#previous">Previous Lab Reflection</a><br>
+            <a href="#main">Coming up with Meeting Notes</a><br>
+            <a href="#questions">Questions</a><br>
+            <a href="#agreement">Confirmation of Agreement</a><br>
+            <a href="#form">Final Form</a></p>
+        </nav> 
+       <main>
+            <h2 id="previous">Previous Lab Reflection</h2>
+            <p>The previous lab was a <strong>success</strong>, website is up and running, as seen here</p>
+            <div>
+                <img src="media/Screenshot 2024-04-10 125211.png" alt="Picture of website from Lab 1"/>
+            </div>
+            <p>Main points of concern with previous lab:</p>
+            <ol>
+                <li>Not getting custom domain</li>
+                <li>How to decide what the <b>final</b> branch structure should look like</li>
+                <li>Was difficult to come up with stuff to add</li>
+            </ol>
+            <h2 id="main">Coming up with Meeting Notes</h2>
+            <p>We <em>must</em> complete these meeting notes by the time Lab 2 is due <br> <span>Types of items we want present:</span></p>
+            <ul>
+                <li>A reflection of the previous lab</li>
+                <li>A section covering the main topic(s) of the meeting</li>
+                <li>A question section</li>
+                <li>A confirmation of agreement</li>
+            </ul>
+            <h2 id="questions">Questions</h2>
+            <p>There was just one question after the discussion:</p>
+            <audio controls src="media/Voice 039.m4a"></audio>
+            <p>To which we figured we seemed to have covered everything</p>
+            <h2 id="agreement">Confirmation of Agreement</h2>
+            <!-- INSERT VIDEO SECTION -->
+            <video controls width="250">
+                <source src="media/20240410_134418.mp4" type="video/mp4">
+            </video>
+            <details>
+                <summary>Disclosure of Participation</summary>
+                Since there is only one member in this meeting, the video is not crucial for the confirmation, but felt fitting anyways
+            </details>
+       </main>
+       <section>
+            <h2 id="form">Please Fill out this Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Final Form</legend>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name"/>
+                    <br>
+                    <label for="date">Today's Date:</label>
+                    <input type="date" id="date" name="date"/>
+                    <br>
+                    <label for="read">Did you read the notes?</label>
+                    <input type="checkbox" id="read" name="read"/>
+                    <p>Which lab is this for?</p>
+                    <input type="radio" id="1" name="lab" value="Lab1"/>
+                    <label for="1">Lab 1</label>
+                    <input type="radio" id="2" name="lab" value="Lab2"/>
+                    <label for="2">Lab 2</label>
+                    <br>
+                    <label for="time">How long did it take to read?</label>
+                    <input list="time-options" id="time" name="time"/>
+                    <datalist id = "time-options">
+                        <option value="Instantly"></option>
+                        <option value="Few minutes"></option>
+                        <option value="Way too long"></option>
+                    </datalist>
+                    <br>
+                    <label for="rating">Rate the notes</label>
+                    <select name="rating" id="rating">
+                        <option value="">Select One</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                    <label for="feedback">Any feedback you can provide?</label>
+                    <textarea id="feedback" name="feedback"></textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+       </section>
+       <footer>
+            <p>All details in these notes were taken by Brian Morse alone for the purpose of completing Lab 2 for the <i>CSE 110</i> class</p>
+       </footer>
+    </body>
+</html>
