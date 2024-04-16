@@ -9,18 +9,10 @@ assignees: BrianMorse12604
 
 # Feature Title: 
 
-**Where to add feature:**
+**Where to add feature:** Please specify the section where this feature should go 
 
-Please specify the section where this feature should go 
+**Details wanted in feature:** What is to be included in this feature? Be specific 
 
-**Details wanted in feature:**
+**Reasons for feature:** Why would this be helpful for the project?
 
-What is to be included in this feature? Be specific 
-
-**Reasons for feature:**
-
-Why would this be helpful for the project?
-
-**Desired complete date:**
-
-Be reasonable with timing to accommodate business and alternate responsibilities
+**Desired complete date:** Be reasonable with timing to accommodate business and alternate responsibilities
