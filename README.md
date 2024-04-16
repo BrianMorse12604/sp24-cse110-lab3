@@ -1,3 +1,3 @@
 # Lab 2 - Starter
 
-[https://brianmorse12604.github.io/Lab2_Starter/](https://brianmorse12604.github.io/Lab2_Starter/)
+[https://brianmorse12604.github.io/sp24-cse110-lab3/](https://brianmorse12604.github.io/sp24-cse110-lab3/)
