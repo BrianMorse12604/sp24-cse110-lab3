@@ -1,0 +1,108 @@
+/* Code to style the meeting minutes */
+:root {
+    --type-size: 30px
+}
+
+* {
+    background-color: rgb(240,240,240);
+    font-family: 'Roboto', Georgia;
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 3rem 1.5em 1.5em 1.5em 1.5em 1.5em;
+    grid-template-columns: 100%;
+    row-gap: 5px;
+    margin: 2cm 2cm 2cm 2cm;
+    padding: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius:5px;
+    position: static;
+}
+
+
+
+nav a, nav p {
+    justify-self: center;
+    align-self: start;
+}
+
+nav > a {
+    font-size: 0.2in;
+    text-decoration: none;
+    position: relative;
+
+    &:hover {
+        color: #F00;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    &:active {
+        color:cadetblue;
+    }
+}
+
+@media (width <= 450px) {
+    nav a, nav p {
+        font-size: 0.10in;
+    }
+    nav {
+        grid-template-rows: 2rem 1em 1em 1em 1em 1em;
+    }
+}
+
+main h2, section h2 {
+    color: color(srgb 0.5 0.5 1);
+}
+
+img#past_lab_img {
+    display:block;
+    width: 50%;
+}
+
+.approve {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
+    height: 500px;
+    max-width: 50%;
+}
+
+h1 {
+    color: color-mix(in srgb, black 50%, gray);
+    max-height: 100px;
+}
+
+h1 + h2 {
+    font-size: var(--type-size, 40px);
+}
+
+#formholder {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer p ~ p {
+    display: none;
+}
+
+*[src="media/screenshot.png"] {
+    margin: auto;
+}
+
+p:has(+ ol), p:has(+ ul) {
+    margin-bottom: 30px;
+}
+
+fieldset {
+    border: 3px solid black;
+}
